@@ -1,0 +1,5 @@
+*.yml
+.tern-project
+.jshintrc
+.editorconfig
+/examples
