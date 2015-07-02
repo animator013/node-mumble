@@ -11,7 +11,7 @@
     "url": "http://github.com/evolvelabs/electron-mumble.git"
   },
   "engines": {
-    "node": ">=2.3.2"
+    "node": ">=2.3.1"
   },
   "dependencies": {
     "protobufjs": "^3.6.0",
