@@ -1,7 +1,7 @@
 {
   "name": "electron-mumble",
   "description": "A fork of the node-mumble project, with electron support",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Justin Chase <justin@evolvelabs.com>",
   "homepage": "https://github.com/evolvelabs/electron-mumble",
   "bugs": "https://github.com/evolvelabs/electron-mumble/issues",
@@ -11,13 +11,13 @@
     "url": "http://github.com/evolvelabs/electron-mumble.git"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=2.3.2"
   },
   "dependencies": {
     "protobufjs": "^3.6.0",
-    "electron-opus": "~0.1.0",
-    "electron-celt": "~0.1.0",
-    "electron-jitterbuffer": "~0.1.0"
+    "electron-opus": "~0.1.11",
+    "electron-celt": "~0.1.10",
+    "electron-jitterbuffer": "~0.1.11"
   },
   "devDependencies": {
     "dmd-clean": "^0.1.0",
