@@ -11,10 +11,10 @@
     "url": "http://github.com/Rantanen/node-mumble.git"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=2.3.3"
   },
   "dependencies": {
-    "protobufjs": "^3.6.0",
+    "protobufjs": "^4.0.0",
     "electron-opus": "~0.1.x",
     "electron-celt": "~0.1.x",
     "electron-jitterbuffer": "~0.1.x"
