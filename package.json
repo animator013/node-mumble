@@ -1,14 +1,14 @@
 {
   "name": "electron-mumble",
-  "description": "Mumble client library",
+  "description": "A fork of the node-mumble project, with electron support",
   "version": "0.2.0",
-  "author": "Mikko Rantanen <jubjub@jubjubnest.net>",
-  "homepage": "https://github.com/Rantanen/node-mumble",
-  "bugs": "https://github.com/Rantanen/node-mumble/issues",
+  "author": "Justin Chase <justin@evolvelabs.com>",
+  "homepage": "https://github.com/evolvelabs/electron-mumble",
+  "bugs": "https://github.com/evolvelabs/electron-mumble/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/Rantanen/node-mumble.git"
+    "url": "http://github.com/evolvelabs/electron-mumble.git"
   },
   "engines": {
     "node": ">=0.10.0"

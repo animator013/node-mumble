@@ -6,7 +6,7 @@ install:
     - git config --global user.name "Travis CI Build"
     - git config --global push.default simple
 node_js:
-    - "node"
+    - "iojs"
 script:
     - gulp
-    - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && gulp upload-docs || true'
+    # '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && gulp upload-docs || true'
