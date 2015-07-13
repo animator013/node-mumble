@@ -1,7 +1,7 @@
 {
   "name": "electron-mumble",
   "description": "A fork of the node-mumble project, with electron support",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Justin Chase <justin@evolvelabs.com>",
   "homepage": "https://github.com/evolvelabs/electron-mumble",
   "bugs": "https://github.com/evolvelabs/electron-mumble/issues",
