@@ -14,36 +14,38 @@ Installation
 Example
 -------
 
-    var mumble = require('mumble');
-    var fs = require('fs');
+```javascript
+var mumble = require('mumble'),
+    fs = require('fs');
 
-    var options = {
-        key: fs.readFileSync( 'private.pem' ),
-        cert: fs.readFileSync( 'public.pem' )
-    }
+var options = {
+    key: fs.readFileSync( 'private.pem' ),
+    cert: fs.readFileSync( 'public.pem' )
+};
 
-    console.log( 'Connecting' );
-    mumble.connect( 'mumble://example.org', options, function ( error, connection ) {
-        if( error ) { throw new Error( error ); }
+console.log( 'Connecting' );
+mumble.connect( 'mumble://example.org', options, function ( error, connection ) {
+    if( error ) { throw new Error( error ); }
 
-        console.log( 'Connected' );
+    console.log( 'Connected' );
 
-        connection.authenticate( 'ExampleUser' );
-        connection.on( 'initialized', onInit );
-        connection.on( 'voice', onVoice );
-    });
+    connection.authenticate( 'ExampleUser' );
+    connection.on( 'initialized', onInit );
+    connection.on( 'voice', onVoice );
+});
 
-    var onInit = function() {
-        console.log( 'Connection initialized' );
+var onInit = function() {
+    console.log( 'Connection initialized' );
 
-        // Connection is authenticated and usable.
-    };
+    // Connection is authenticated and usable.
+};
 
-    var onVoice = function( event ) {
-        console.log( 'Mixed voice' );
+var onVoice = function( voice ) {
+    console.log( 'Mixed voice' );
 
-        var pcmData = voice.data;
-    }
+    var pcmData = voice;
+};
+```
 
 Take a look at the advanced example in "examples/advanced.js"!
 
@@ -55,3 +57,7 @@ Contributing
 Pull requests, found issues, etc. are welcome. The authors are tracked in the
 AUTHORS file. This file is kept up to date manually so authors are encouraged
 to pull request the necessary changes to the AUTHORS themselves.
+
+Related Projects
+----------------
+- [node-mumble-audio](https://github.com:EvolveLabs/node-mumble-audio.git) Add local capture and playback to node-mumble.
