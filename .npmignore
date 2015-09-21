@@ -1,5 +1,10 @@
 *.yml
-.tern-project
-.jshintrc
-.editorconfig
+*.tgz
+.*
+
 /examples
+/test
+/docs
+/node_modules
+
+
