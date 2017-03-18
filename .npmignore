@@ -1,0 +1,10 @@
+*.yml
+*.tgz
+.*
+
+/examples
+/test
+/docs
+/node_modules
+
+

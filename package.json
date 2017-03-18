@@ -3,21 +3,25 @@
   "description": "Mumble client library",
   "version": "0.3.11",
   "author": "Mikko Rantanen <jubjub@jubjubnest.net>",
-  "homepage": "https://github.com/Rantanen/node-mumble",
-  "bugs": "https://github.com/Rantanen/node-mumble/issues",
+  "contributors": [
+    "Justin Chase <justin@evolvelabs.com>"
+  ],
+  "homepage": "https://github.com/evolvelabs/electron-mumble",
+  "bugs": "https://github.com/evolvelabs/electron-mumble/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/Rantanen/node-mumble.git"
+    "url": "http://github.com/evolvelabs/electron-mumble.git"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=3.2.0",
+    "electron": "~0.32.3"
   },
   "dependencies": {
     "protobufjs": "^4.0.0",
-    "node-opus": "^0.2.2",
-    "celt": "^0.1.11",
-    "jitterbuffer": "^0.1.12"
+    "electron-opus": "~0.2.0",
+    "electron-celt": "~0.2.0",
+    "electron-jitterbuffer": "~0.2.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
