@@ -20,7 +20,7 @@
   "dependencies": {
     "protobufjs": "^4.0.0",
     "electron-opus": "~0.2.0",
-    "electron-celt": "~0.2.0",
+    "electron-celt": "https://github.com/drappier-charles/node-celt.git",
     "electron-jitterbuffer": "~0.2.0"
   },
   "devDependencies": {
