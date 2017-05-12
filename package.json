@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "protobufjs": "^4.0.0",
-    "node-opus": "~0.2.0",
-    "node-celt": "https://github.com/Rantanen/node-celt.git",
-    "electron-jitterbuffer": "https://github.com/EvolveLabs/electron-jitterbuffer.git"
+    "electron-opus": "~0.2.0",
+    "electron-jitterbuffer": "~0.2.0",
+	"node-celt": "https://github.com/Rantanen/node-celt.git"
   },
   "devDependencies": {
     "chai": "^3.2.0",
